@@ -1,0 +1,9 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://127.0.0.1:8902/eureka/
+server:
+    port: 8905
+spring:
+    application:
+        name: cloud-ribbon
