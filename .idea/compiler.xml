@@ -10,12 +10,14 @@
         <module name="cloud-server" />
         <module name="springcloud-test" />
         <module name="cloud-ribbon" />
+        <module name="cloud-feign" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-client" options="-parameters" />
+      <module name="cloud-feign" options="" />
       <module name="cloud-ribbon" options="-parameters" />
       <module name="cloud-server" options="-parameters" />
     </option>
