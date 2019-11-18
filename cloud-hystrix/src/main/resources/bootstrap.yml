@@ -3,7 +3,7 @@ eureka:
         serviceUrl:
             defaultZone: http://127.0.0.1:8902/eureka/
 server:
-    port: 8903
+    port: 8907
 spring:
     application:
-        name: cloud-client1
+        name: cloud-hystrix

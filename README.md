@@ -12,3 +12,5 @@
 
 #### cloud-feign 服务消费者
 - 由于Spring cloud与boot版本冲突，所以boot版本改为：1.5.9.RELEASE
+
+### cloud-hystrix 断路器

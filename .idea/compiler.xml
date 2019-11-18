@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-client" />
-        <module name="cloud-server" />
+        <module name="cloud-feign" />
+        <module name="cloud-hystrix" />
         <module name="springcloud-test" />
         <module name="cloud-ribbon" />
-        <module name="cloud-feign" />
+        <module name="cloud-server" />
+        <module name="cloud-client" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-client" options="-parameters" />
       <module name="cloud-feign" options="" />
+      <module name="cloud-hystrix" options="-parameters" />
       <module name="cloud-ribbon" options="-parameters" />
       <module name="cloud-server" options="-parameters" />
     </option>
